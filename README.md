@@ -1,4 +1,4 @@
-# odianumerals 🇮🇳
+# odianumerals
 
 **odianumerals** is a linguistically accurate and extensible Python library for working with **Odia numerals and number expressions**.  
 It supports modern and classical Odia numbering systems, currency representation, ordinals, and natural-language mathematical expressions.
