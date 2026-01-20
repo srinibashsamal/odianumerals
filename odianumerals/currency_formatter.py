@@ -1,8 +1,8 @@
 from typing import Union
 
-import classical_converter as barnabodha
-import internal_utils as util
-from cardinal_converter import to_odia_words
+from . import classical_converter as barnabodha
+from . import internal_utils as util
+from .cardinal_converter import to_odia_words
 
 
 def to_odia_currency(

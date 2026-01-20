@@ -1,7 +1,7 @@
 from typing import Union
 
-import internal_utils as util
-from constants import BARNABODHA_UNITS, DASHAMIK, NUM_DATA
+from . import internal_utils as util
+from .constants import BARNABODHA_UNITS, DASHAMIK, NUM_DATA
 
 _SORTED_BARNABODHA_KEYS = sorted(BARNABODHA_UNITS.keys(), reverse=True)
 
@@ -84,4 +84,5 @@ def to_odilish_words(number: Union[str, int, float]) -> str:
     """
     Return Odilish (English-script Odia) words using the Barnabodha system.
     """
+    return to_odia_barnabodha_words(number, as_odilish=True)
     return to_odia_barnabodha_words(number, as_odilish=True)

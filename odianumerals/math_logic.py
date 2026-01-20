@@ -1,9 +1,9 @@
 import re
 from typing import Union
 
-import cardinal_converter as cardinal
-import internal_utils as util
-from constants import MATH_EQUALS, MATH_OPERATORS, MATH_VERBS
+from . import cardinal_converter as cardinal
+from . import internal_utils as util
+from .constants import MATH_EQUALS, MATH_OPERATORS, MATH_VERBS
 
 
 def calculate_and_express(

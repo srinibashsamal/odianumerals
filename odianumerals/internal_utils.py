@@ -9,7 +9,7 @@ def _to_english_numeric(val: Any) -> Any:
     """
     if isinstance(val, str):
         try:
-            import digit_formatter
+            from . import digit_formatter
 
             return digit_formatter.to_english_number(val)
         except (ValueError, TypeError):

@@ -1,9 +1,9 @@
 from typing import Union
 
-import internal_utils as utils
+from . import internal_utils as utils
 
-# from constants import ENG_NUMBER_WORDS, ENG_ORDINAL_WORDS, LARGE_ENG_NUMBER_WORDS
-from constants import ENG_NUMBER_WORDS, LARGE_ENG_NUMBER_WORDS
+# from .constants import ENG_NUMBER_WORDS, ENG_ORDINAL_WORDS, LARGE_ENG_NUMBER_WORDS
+from .constants import ENG_NUMBER_WORDS, LARGE_ENG_NUMBER_WORDS
 
 _SORTED_LARGE_NUMBER = sorted(LARGE_ENG_NUMBER_WORDS.keys(), reverse=True)
 

@@ -1,8 +1,8 @@
 from typing import Union
 
-import internal_utils as util
-from cardinal_converter import to_odia_words
-from constants import DASHAMIK, FRACTIONS, NUM_DATA
+from . import internal_utils as util
+from .cardinal_converter import to_odia_words
+from .constants import DASHAMIK, FRACTIONS, NUM_DATA
 
 
 def to_fraction_words(

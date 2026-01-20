@@ -1,7 +1,7 @@
 from typing import Union
 
-from constants import ENG_DIGITS, ODIA_DIGITS
-from internal_utils import _validate_and_format
+from .constants import ENG_DIGITS, ODIA_DIGITS
+from .internal_utils import _validate_and_format
 
 
 def to_odia_digits(number: Union[str, int, float]) -> str:

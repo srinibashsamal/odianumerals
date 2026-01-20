@@ -1,7 +1,7 @@
 from typing import Union
 
-import internal_utils as util
-from constants import DASHAMIK, NUM_DATA, UNITS
+from . import internal_utils as util
+from .constants import DASHAMIK, NUM_DATA, UNITS
 
 
 def _format_compound_number(

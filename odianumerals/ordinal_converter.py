@@ -1,11 +1,11 @@
 import re
 from typing import Union
 
-import cardinal_converter as cardinal
-import digit_formatter
-import english_converter as english
-import internal_utils as util
-from constants import (
+from . import cardinal_converter as cardinal
+from . import digit_formatter
+from . import english_converter as english
+from . import internal_utils as util
+from .constants import (
     ENG_NUMBER_WORDS,
     ENG_ORDINAL_WORDS,
     ORDINAL_DATA,

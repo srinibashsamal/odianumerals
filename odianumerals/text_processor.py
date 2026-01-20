@@ -1,7 +1,7 @@
 import re
 from typing import List, Union
 
-from digit_formatter import to_english_number, to_odia_digits
+from .digit_formatter import to_english_number, to_odia_digits
 
 ODIA_NUM_PATTERN = r"[୦-୯][୦-୯,.]*[୦-୯]|[୦-୯]"
 ENG_NUM_PATTERN = r"[0-9][0-9,.]*[0-9]|[0-9]"

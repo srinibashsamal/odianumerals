@@ -1,9 +1,8 @@
 import random
 from typing import Any, List, Sequence, Union
 
-import cardinal_converter
-import digit_formatter
-import internal_utils as util
+from . import cardinal_converter, digit_formatter
+from . import internal_utils as util
 
 
 def _apply_odia_formatting(
