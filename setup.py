@@ -8,7 +8,7 @@ setup(
     description="A comprehensive library for Odia numeral processing and linguistic conversion.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/srinibashsamal/odianumerals",  # Update this after uploading to GitHub
+    url="https://github.com/srinibashsamal/odianumerals",
     packages=find_packages(),
     include_package_data=True,
     classifiers=[
@@ -17,8 +17,8 @@ setup(
         "Operating System :: OS Independent",
         "Topic :: Text Processing :: Linguistic",
         "Intended Audience :: Developers",
-        "Natural Language :: Odia",
     ],
     python_requires=">=3.6",
     keywords="odia, odianumber, numerals, odia-math, barnabodha, indian-numbering-system",
 )
+
