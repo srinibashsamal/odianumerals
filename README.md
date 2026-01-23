@@ -6,7 +6,7 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Source-black?logo=github)](https://github.com/srinibashsamal/odianumerals)
 ![Project Status](https://img.shields.io/badge/status-active-success)
 
-**odianumerals** is a linguistically accurate and extensible Python library for working with **Odia numerals and number expressions**.  
+`odianumerals` is a linguistically accurate and extensible Python library for working with **Odia numerals and number expressions**.  
 It supports modern and classical Odia numbering systems, currency representation, ordinals, and natural-language mathematical expressions.
 
 Built with a strong focus on **Indian numbering conventions** and **Odia linguistic correctness**, this library is suitable for NLP, education, localization, and digital humanities projects.
@@ -47,10 +47,22 @@ Built with a strong focus on **Indian numbering conventions** and **Odia linguis
 
 ---
 
+## Install
+
+- Requires **Python 3.10 or higher**.
+- The library is tested on Python 3.10, 3.11, 3.12, 3.13, and 3.14.
+
 ## 📦 Installation
 
 ```bash
 pip install odianumerals
+```
+
+### From source
+
+```bash
+git clone https://github.com/srinibashsamal/odianumerals.git
+cd odianumerals
 ```
 
 ## 🛠 Usage Examples
@@ -89,7 +101,7 @@ print(odi.to_odia_currency(105.75))
 # Output: ଏକ ଶହ ପାଞ୍ଚ ଟଙ୍କା ସତୁରୀ ପଇସା
 ```
 
-### Classical and Mathematical Logic
+### Classical Expressions and Logic
 
 ```python
 # Classical Barnabodha System
